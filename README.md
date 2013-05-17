@@ -15,7 +15,7 @@ If you want to use this template for your own website, you are free to modify it
 
 Read the [Jekyll documentation](http://jekyllrb.com/docs/home/) for more details.
 
-### File structure
+### Directory structure
 - `_config.yml` : Jekyll [configuration](http://jekyllrb.com/docs/configuration/)
 - `_layouts/`
 	-  `default.html` : default template
@@ -26,3 +26,7 @@ Read the [Jekyll documentation](http://jekyllrb.com/docs/home/) for more details
 - `publications.md`, `software.md`, `stuff.md` : example additional pages
 
 The pages must specify a template (default) and a title, and can be written in [Markdown](http://daringfireball.net/projects/markdown/), HTML or a mixture of these.
+
+## Preview
+
+![Preview](https://gist.github.com/vchahun/5596823/raw/ff6ab156e5d4762a0ac0c117293e9a4765e3c0fa/kitty-website.png)
