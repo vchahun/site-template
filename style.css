@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Droid+Sans+Mono);
+
+body {
+    background: #f3f3f3;
+    font: normal 120% Lato, sans-serif;
+    margin: 0;
+    color: #555;
+}
+
+body > header, body > section, body > footer {
+    width: 920px;
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+}
+
+a {
+    color: #28D;
+    text-decoration: none;
+}
+
+h1 a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0 1em;
+}
+
+code, pre, tt {
+    font: 80% "Droid Sans Mono", monospace;
+    background: #f3f3f3;
+    padding: 0.2em;
+}
+
+pre {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5em;
+    overflow: auto;
+}
+
+pre code {
+    padding: 0;
+    font-size: 90%;
+    display: block;
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    font-size: 120%;
+    position: absolute;
+    right: 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 5px;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 0.5em;
+    vertical-align: middle;
+}
+
+header a {
+    color: inherit;
+}
+
+section {
+    line-height: 1.7em;
+}
+
+hr {
+    width: 960px;
+    margin-left: -20px;
+    border: 0;
+    background: #f3f3f3;
+    height: 20px;
+}
+
+table {
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 0.5em;
+}
+
+#picture {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+#about {
+    display:inline-block;
+    vertical-align: top;
+}
+
+footer {
+  font-size: 75%;
+  color: #888;
+}
